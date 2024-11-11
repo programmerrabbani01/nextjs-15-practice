@@ -32,10 +32,10 @@ export default function DevelopersForm() {
         <div className="my-2 flex flex-col gap-1">
           <label>Cell Number</label>
           <input
-            type="number"
+            type="text"
             placeholder="Type Your Cell Number"
             className="border border-blue-100 outline-none px-4 py-2 rounded-lg"
-            name="cellNumber"
+            name="cell"
           />
         </div>
 
@@ -53,7 +53,6 @@ export default function DevelopersForm() {
           <label>Photo</label>
           <input
             type="file"
-            placeholder="Type Your Name"
             className="border border-blue-100 outline-none px-4 py-2 rounded-lg"
             name="photo"
           />
