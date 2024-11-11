@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "axios": "^1.7.7",
+    "cloudinary": "^2.5.1",
     "lucide": "^0.456.0",
     "mongoose": "^8.8.1",
     "next": "15.0.0-rc.1",
